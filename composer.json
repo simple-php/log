@@ -1,0 +1,19 @@
+{
+    "name": "simple-php/log",
+    "description": "Simple PHP Log interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Puchkin Dmitriy",
+            "email": "pdima88@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "classmap": ["/Log.php"]
+    } 
+}
+
