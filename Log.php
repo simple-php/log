@@ -54,7 +54,7 @@ class LogHelper {
         $this->itemId = $itemId;
     }
 
-    public function log($msg, $actionId = null, $level = self::LEVEL_INFO) {
+    public function log($msg, $actionId = null, $level = Log::LEVEL_INFO) {
         Log::log($this->logId, $this->itemId, $msg, $actionId, $level);
     }
 
